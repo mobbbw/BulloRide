@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login_page</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="body">
+    <div class="form-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="name">Phone Number</label>
+                <input type="number" id="name" name="username" placeholder="Phone Number" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="password" id="password" >Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+            <button class="submit-btn" type="submit">login</button>
+        </form>
+        <p>dont have an acount? <a href="/signUp">Signup<a href="/forgot">Forget Password</a> </p>
+    </div>
+</body>
+</html>

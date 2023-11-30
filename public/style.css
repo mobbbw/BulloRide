@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.abouta{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-bottom:30px ;
+}
+.form-container{
+    width: 300 auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.submit-btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #472dbb;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #4565a0;
+}
+p{
+    margin-top:15px;
+}
+.abouta{
+    padding: 40%;
+}
+.templet{
+    width: 200;
+    display: flex-;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #88cad7;
+   
+    border-radius: 5px;
+}
+.bo{
+    
+    background-color: #aec3d4;
+    margin: 5px;
+}
+h1{
+    padding-left: 45%;
+}
+
+header{
+    color:white;
+    background-color:#0a3a67;
+    padding: 16px 32px;
+    margin-top:0px;
+    box-shadow: 0 0 10px 0 rgb(0,0,0,0.3);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4565a0;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+footer{
+    color: white;
+    background-color: #0a3a67;
+    position: absolute;
+     text-align: center;
+     bottom:0px;
+     width: 100%;
+     height: 50px;
+     border-bottom: none;
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+ }
+ .note{
+
+    position: static;
+    display: flex;
+    justify-content: center;
+     display: inline-block;
+     background-color: #f9f8f6;
+     border-radius: 7px;
+     text-align: center;
+     box-shadow: 0 0 10px 0 rgb(0,0,0,0.3);
+     margin: 60px;
+     width: 170px; 
+     height: 250px;
+     border: none;
+    
+ }
+
+
